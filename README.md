@@ -6,7 +6,23 @@ Before we start, make sure that you have an account and access to publish a serv
 *) For the next part, I will use Portal term for ArcGIS Enterprise and AGOL for ArcGIS Online
 
 Next, we first need to publish a service to our Portal/AGOL. The service could be either a table or a feature layer. We will learn how to update the data for both the table and the feature layer.
+![alt text](https://github.com/lucassuryana/Update-Feature-Service-ArcGIS/blob/master/blob/Table%20and%20Feature%20Layer.JPG)
+<p align="center">
+  Feature Layer and Table in My Content
+</p>
 
-Table and Feature Layer in My ContentTable Feature LayerBefore we start, we need to install ArcGIS API for Python, which is a library in your Python environment.
+![alt text](https://github.com/lucassuryana/Update-Feature-Service-ArcGIS/blob/master/blob/Feature%20Layer.JPG)
+<p align="center">
+  Feature Layer
+</p>
 
+![alt text](https://github.com/lucassuryana/Update-Feature-Service-ArcGIS/blob/master/blob/Well.JPG)
+<p align="center">
+  Table
+</p>
+
+Before we start, we need to install ArcGIS API for Python, which is a library in your Python environment.
+```
 pip install arcgis
+```
+
