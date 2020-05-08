@@ -128,7 +128,7 @@ table_item = search_result[0]
 table_layers = table_item.tables
 
 # Access the editable table layers
-table_flayer = well_layers[0]
+table_flayer = table_layers[0]
 ```
 
 If we see at the # Access the item’s table layers, instead of using .layers we use .tables as we are not accessing layers but the table.
